@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(225,225,225,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(225,225,225,.3);
+    border-top: 1px solid rgba(225,225,225,.3);
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(o,o,o,.3);
+    letter-spacing: 3px;
+    margin-bottom: 10%;
+    opacity: .7;
+
+}
+label{
+    font-size: 20px;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow:2px 2px 4px rgba(o,o,o,.3) ;
+
+}
+input{
+    width: 200px;
+    margin: 5% auto;
+    margin-bottom:8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+    border-bottom: 1px solid rgba(240, 232, 232, 0.815);
+ 
+}
+
+button{
+    width: 150px;
+    margin: 3% auto;
+    color:white;
+    font-size: 20px;
+    opacity: .7;
+    background: rgb(255, 79, 79);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 150px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3) ;
+    border-left: 1px 1px rgba(106, 105, 105, 0.3) ;
+    border-top: 1px 1px rgba(225,225,225,.3) ;
+    transition: .3s;
+}
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 7px 7px 10px rgba(27, 172, 239, 0.37);
+
+    
+}
+a{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    cursor: pointer;
+    transition: .5s;
+}
+a:hover{
+    transform: scale(1.2);
+}
